@@ -1,0 +1,2 @@
+target : main.c menu_fun.c checkbal_fun.c deposit_fun.c withdraw_fun.c exit_fun.c error_fun.c fun.h
+    gcc main.c menu_fun.c checkbal_fun.c deposit_fun.c withdraw_fun.c exit_fun.c error_fun.c -o all.out
