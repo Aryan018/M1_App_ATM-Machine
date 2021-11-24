@@ -1,4 +1,4 @@
-#include "fun.h"
+#include "../Inc/fun.h"
 float moneyDeposit(float balance) {
     float deposit;
     printf("You choose to Deposit a money\n");
