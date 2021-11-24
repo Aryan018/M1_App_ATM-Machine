@@ -1,4 +1,4 @@
-#include "fun.h"
+#include "../Inc/fun.h"
 
 float moneyWithdraw(float balance) {
     float withdraw;
