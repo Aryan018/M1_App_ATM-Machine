@@ -5,7 +5,7 @@
 
 > ATMs are convenient, allowing consumers to perform quick self-service transactions such as deposits, cash withdrawals, bill payments, and transfers between accounts.
 
-#### ATM Design Elements
+## ATM Design Elements
 Although the design of each ATM is different, they all contain the same basic parts
 
 .
