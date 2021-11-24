@@ -1,21 +1,14 @@
 # Introduction
 ## Automated Teller Machine (ATM)
-
 > ATM stands for Automated Teller Machines. An ATM is an electronic banking machine that allows customers to withdraw money with an ATM card and perform other banking transactions without the aid of banking staff.
-
 > ATMs are convenient, allowing consumers to perform quick self-service transactions such as deposits, cash withdrawals, bill payments, and transfers between accounts.
-
 ## ATM Design Elements
 Although the design of each ATM is different, they all contain the same basic parts
-
 .
 > Card reader: This part reads the chip on the front of the card or the magnetic stripe on the back of the card.
-
 > Keypad: The keypad is used by the customer to input information, including personal identification number(PIN), the type of transaction required, and the amount of the         transaction.
 > Cash dispenser: Bills are dispensed through a slot in the machine, which is connected to a safe at the bottom of the machine.
-
 > Printer: If required, consumers can request receipts that are printed here. The receipt records the type of transaction, the amount, and the account balance.
-
 > Screen: The ATM issues prompts that guide the consumer through the process of executing the transaction. Information is also transmitted on the screen, such as account information and balances.
 # 4W 1H
 ## Why 
@@ -23,7 +16,6 @@ Although the design of each ATM is different, they all contain the same basic pa
 -   Access to hard Cash Anywhere at Anytime.
 -   ATM machines are Cheaper to Maintain.
 -   We can withdraw money without the intervention of bank staff.
-
 ## What
 > Through this Project we can:
 -   Check total balance
@@ -44,7 +36,6 @@ Although the design of each ATM is different, they all contain the same basic pa
 -   check total balance, Deposit Amount and Withdraw Amounts easily as it is not time-consuming.
 ## Features
 From this system, the user can check total balance, Deposit Amount and Withdraw Amounts easily as it is not time-consuming. The whole project is developed in ‘C’ Programming language, different variables and strings have been used for the development of this project. It’s easy to operate and understand by users.
-
 -   Check total balance
 -   Deposit Money
 -   Withdraw Money
@@ -62,3 +53,19 @@ From this system, the user can check total balance, Deposit Amount and Withdraw 
 ### Threat
 1.  ATM machines can be targeted by criminals, robbers and hackers.
 2.  ATM Machines May Malfunction.
+# Test Plan
+---
+## High Level Test Plan
+---
+| TestID | Description                                                                                                                                  | Exp I/P | Exp O/P                       | Actual O/P                    | Type of Test      |
+| ------ | -------------------------------------------------------------------------------------------------------------------------------------------- | ------- | ----------------------------- | ----------------------------- | ----------------- |
+| H_01   | Depositing money in the account and checking the total Balance                 | 4000     | 19000                         | 19000                         | Requirement Based |
+| H_02   | Customer checking his/her balance                                                                                                        | ----    | SUCCESS                       | SUCCESS                       | Requirement Based |
+| H_03   | When user enter the wrong option                                                                                                | ----    | Give message "Invalid number" | Give message "Invalid number" | Scenario Based    |
+## Low Level Test Plan
+---
+| TestID | Description                                                                                 | Exp I/P       | Exp O/P                  | Actual O/P               | Type of Test      |
+| ------ | ------------------------------------------------------------------------------------------- | ------------- | ------------------------ | ------------------------ | ----------------- |
+| L_01   | Balance left after the customer has withdrawn money from his/her account             |   5000      | 10000                      | 10000                     | Requirement Based |
+| L_02   | When the customer transaction has completed                          | ----           | Give messsage "Take your receipt"                    | Give message "Take your receipt                    | Scenario Based |
+| L_03   | When the customer starts his/her transaction               | -----       | Give message "Welcome to ATM Banking"                   | Give message "Welcome to ATM Banking"                   | scenario Based |
