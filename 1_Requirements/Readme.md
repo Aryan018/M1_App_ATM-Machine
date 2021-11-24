@@ -9,6 +9,6 @@
 ## What
 ## Where
 ## How
-# Detail Requirements
+## Detail Requirements
 ## High Level Requirements
 ## Low Level Requirements 
