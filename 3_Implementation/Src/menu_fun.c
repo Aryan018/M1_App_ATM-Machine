@@ -1,4 +1,4 @@
-#include "fun.h"
+#include "../Inc/fun.h"
 void mainMenu() {
 
     printf("******************Hello User!*******************\n");
