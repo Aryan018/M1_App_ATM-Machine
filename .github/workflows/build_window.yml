@@ -13,5 +13,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v2
-    - name: make all
-      run:  3_Implementation/
+    - name: build
+      run:  gcc ATM Machine Program.c -o ATM Machine Program.exe
+    - name: Run
+      run: .\ATM Machine Program.exe
